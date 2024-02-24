@@ -1,0 +1,20 @@
+{
+  "name": "miton",
+  "version": "1.0.0",
+  "description": "Starter theme for WordPress based web apps",
+  "main": "index.js",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "scripts": {
+    "watch": "node-sass assets/scss/ -o assets/css/ --source-map true --output-style compressed --indent-type tab --indent-width 1 -w",
+    "compile": "node-sass assets/scss/ -o assets/css/ --source-map true --output-style compressed --indent-type tab --indent-width 1"
+  },
+  "author": "Azamat Khodjakov",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0"
+  }
+}
